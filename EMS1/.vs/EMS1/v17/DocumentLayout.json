@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\models\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\models\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|c:\\users\\prathamesh\\source\\repos\\ems1\\ems1\\ems1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A78283F7-E2E7-42E8-BC5F-486B49F1188E}|EMS1\\EMS1.csproj|solutionrelative:ems1\\ems1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EMS1\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Services\\UserService.cs",
+              "RelativeToolTip": "EMS1\\Services\\UserService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:06:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EMS1.csproj",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\EMS1.csproj",
+              "RelativeDocumentMoniker": "EMS1\\EMS1.csproj",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\EMS1.csproj",
+              "RelativeToolTip": "EMS1\\EMS1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-03T09:04:56.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Program.cs",
+              "RelativeDocumentMoniker": "EMS1\\Program.cs",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Program.cs",
+              "RelativeToolTip": "EMS1\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:02:33.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "EMS1\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Models\\Users.cs",
+              "RelativeToolTip": "EMS1\\Models\\Users.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T08:49:03.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\appsettings.json",
+              "RelativeDocumentMoniker": "EMS1\\appsettings.json",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\appsettings.json",
+              "RelativeToolTip": "EMS1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T08:53:28.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EMS1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EMS1\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAMwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T11:41:41.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EMS1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\WeatherForecast.cs",
+              "RelativeToolTip": "EMS1\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:15:07.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EMS1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EMS1\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T13:17:38.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseSettings.cs",
+              "DocumentMoniker": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Models\\DatabaseSettings.cs",
+              "RelativeDocumentMoniker": "EMS1\\Models\\DatabaseSettings.cs",
+              "ToolTip": "C:\\Users\\prathamesh\\source\\repos\\EMS1\\EMS1\\Models\\DatabaseSettings.cs",
+              "RelativeToolTip": "EMS1\\Models\\DatabaseSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T08:59:41.65Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

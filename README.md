@@ -1,2 +1,0 @@
-# VervotechEmployeeManagementSystem
-Employee management System Project
