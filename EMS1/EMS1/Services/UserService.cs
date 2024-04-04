@@ -26,8 +26,8 @@ namespace EMS1.Services
         public async Task CreateAsync(Users user) =>
             await _userCollection.InsertOneAsync(user);
 
-        public async Task Update(Users user) =>
-            await _userCollection.ReplaceOneAsync(a => a.Id == user.Id, user);
+        public async Task UpdateAsync(string id, Users user) =>
+            await _userCollection.ReplaceOneAsync(a=>a.Id==id, user);
 
         public async Task DeleteAsync(string id) =>
             await _userCollection.DeleteOneAsync(a => a.Id == id);

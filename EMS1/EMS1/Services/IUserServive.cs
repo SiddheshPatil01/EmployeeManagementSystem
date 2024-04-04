@@ -7,7 +7,7 @@ namespace EMS1.Services
         Task<IEnumerable<Users>> getAllAsync();
         Task<Users> GetById(string id);
         Task CreateAsync(Users user);
-        Task Update(Users user);
+        Task UpdateAsync(string id,Users user);
 
         Task DeleteAsync(string id);
 
