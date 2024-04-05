@@ -2,7 +2,7 @@
 
 namespace EMS1.Services
 {
-    public interface IUserServive
+    public interface IUserService
     {
         //Admin
         Task<IEnumerable<Users>> getAllAsync();
