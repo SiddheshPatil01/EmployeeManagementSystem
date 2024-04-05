@@ -20,18 +20,40 @@ namespace EMS1.Services
         public async Task<IEnumerable<Users>> getAllAsync()=>
             await _userCollection.Find(_=>true).ToListAsync();
 
-        public async Task<Users> GetById(string id) =>
-            await _userCollection.Find(a => a.Id == id).FirstOrDefaultAsync();
+        public async Task<Users> GetById(int _id) =>
+            await _userCollection.Find(a => a.empId == _id).FirstOrDefaultAsync();
 
         public async Task CreateAsync(Users user) =>
             await _userCollection.InsertOneAsync(user);
 
-        public async Task UpdateAsync(string id, Users user) =>
-            await _userCollection.ReplaceOneAsync(a=>a.Id==id, user);
+        public async Task UpdateAsync(int _id, Users user) {
+            var filter = Builders<Users>.Filter.Eq("empId", _id); // Assuming "empId" is the identifier
+            var update = Builders<Users>.Update
+                .Set("name", user.name) // Replace "name" with other fields you want to update
+                .Set("email", user.email)
+                .Set("password", user.password)
+                .Set("role", user.role)
+                .Set("mngId", user.mngId);
+            await _userCollection.UpdateOneAsync(filter, update);
+        }
 
-        public async Task DeleteAsync(string id) =>
-            await _userCollection.DeleteOneAsync(a => a.Id == id);
+          //  await _userCollection.ReplaceOneAsync(a=>a.empId==_id, user);
+
+        public async Task DeleteAsync(int _id) =>
+            await _userCollection.DeleteOneAsync(a => a.empId == _id);
+
+        //Manager methods 
+        public async Task<IEnumerable<Users>> GetAllEmployeeForManagerAsync(int mngId)
+        {
+            var filter = Builders<Users>.Filter.Eq("mngId", mngId);
+            return await _userCollection.Find(filter).ToListAsync();
+            //return await _userCollection.Find(a=>a.mngId==_mngId).ToListAsync();
+        }
+
+          // public async Task<Users> GetManagerDetails(int _mngId) =>
+          // await _userCollection.Find(a => a.empId == _mngId).FirstOrDefaultAsync();
     }
 
     
+   
 }

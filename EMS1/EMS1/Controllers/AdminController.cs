@@ -10,30 +10,32 @@ namespace EMS1.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class AdminController : ControllerBase
     {
         
         private readonly IUserServive _userService;
 
 
-        public UserController(IUserServive userService)
+        public AdminController(IUserServive userService)
         {
             _userService = userService;
         }
 
-        // GET: api/User
+        // GET
         [HttpGet]
         public async Task<IActionResult> Get()
         {
+            Console.WriteLine("all employees");
             var users=await _userService.getAllAsync();
 
             return Ok(users);
         }
 
-        // GET api/UserController/5
+        // GET 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(string id)
+        public async Task<IActionResult> Get(int id)
        {
+            
             var users = await _userService.GetById(id);
             if (users == null) { 
                 return NotFound();
@@ -42,7 +44,7 @@ namespace EMS1.Controllers
             return Ok(users);
         }
 
-        // POST api/UserController
+        // POST 
         [HttpPost]
         public async Task<IActionResult> Post(Users user)
         {
@@ -50,9 +52,9 @@ namespace EMS1.Controllers
             return Ok("Created successfully");
         }
 
-        // PUT api/UserController/5
+        // PUT 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(string id, [FromBody] Users newUser)
+        public async Task<IActionResult> Put(int id, [FromBody] Users newUser)
         {   
             var user=await _userService.GetById(id);
             if (user == null) { 
@@ -62,9 +64,9 @@ namespace EMS1.Controllers
             return Ok("Updated successfully");
         }
 
-        // DELETE api/UserController/5
+        // DELETE 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(int id)
         {
             var user = await _userService.GetById(id);
             if (user == null)

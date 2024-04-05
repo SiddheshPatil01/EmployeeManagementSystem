@@ -1,6 +1,6 @@
 @EMS1_HostAddress = http://localhost:5062
 
-GET {{EMS1_HostAddress}}/weatherforecast/
+GET {{EMS1_HostAddress}}/User
 Accept: application/json
 
 ###
